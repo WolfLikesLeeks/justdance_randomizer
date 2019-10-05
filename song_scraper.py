@@ -9,7 +9,7 @@ urls = [url_1, url_2]
 
 for url in urls:
     r = requests.get(url)
-    data = r.text 
+    data = r.text
     soup = BeautifulSoup(data, 'html.parser')
 
     songList = []
