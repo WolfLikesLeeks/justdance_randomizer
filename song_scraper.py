@@ -30,7 +30,7 @@ for url in urls:
             continue
 
 
-    f = open('just_dance_list_example.csv', 'a')
+    f = open('just_dance_list.csv', 'a')
     for song in songList:
         f.write(song + '\n')
     f.close()
